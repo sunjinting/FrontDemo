@@ -1,6 +1,6 @@
 $('#button').click(function () {
     var msg = '信息保存成功';    // 提示消息
-    var title = '操作结果';      // 消息title
+    var title = '操作结果 ';      // 消息title
     var shortCutFunction = 'success'; // 结果
     toastr.options = {
         "closeButton": true,
